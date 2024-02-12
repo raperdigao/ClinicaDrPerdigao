@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Poppins:wght@300&display=swap');
+
+
+/* Criar variaveis para fontes e cores - tipografia */
+:root {
+    --JosefinSans: Josefin Sans;
+    --Poppins: Poppins;
+    --OpenSans: Open Sans;
+    --Header: #004186;
+    --Button: #FAC075;
+    --Textbutton: #005F58;
+    --Textgeral: #FFFFFF;
+
+}
+
+/* Resetar o navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Deixar a barra de rolagem mais lenta */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Container para o Header */
+.container-grid {
+    max-width: 1920px;
+    width: 80vw;
+    margin: 0 auto;
+    height: auto;
+}
+
+/* Deixar o background em 100% */
+header {
+    width: 100vw;
+    height: 12vh;
+    background-color: var(--Header);
+}
+
+
+/* Deixar o header flexivel */
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+/* Estililizar o menu navflex */
+.nav-flex {
+    width: 40vw;
+}
+
+.nav-flex>ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    list-style-type: none;
+    color: var(--Textgeral);
+
+}
+
+.nav-flex>ul>li {
+    color: var(--Textgeral);
+    font-family: var(--JosefinSans);
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.nav-flex>ul>li>a {
+    color: var(--Textgeral);
+    text-decoration: none;
+    font-family: var(--JosefinSans);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Estilizar o botão pesquisar e imagem search */
+.button-flex {
+    display: flex;
+    width: 16vw;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    margin-top: 40px;
+
+}
+
+.button-flex>button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Button);
+    font-family: var(--JosefinSans);
+    color: var(--Textbutton);
+    width: 10vw;
+    height: 43px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button-flex>img {
+    cursor: pointer;
+
+}
+
+
+/* Cria estilização para o banner utilizando o disply grid */
+
+.container-grid-banner {
+    max-width: 1920px;
+    width: 80vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 45% auto;
+    grid-template-rows: auto;
+    height: 55vh;
+
+}
+
+/* Estilizando o banner */
+.banner {
+    height: 55vh;
+    /* border: 2px solid black; */
+    background-color: var(--Header);
+}
+
+/* Estilizando o banner e a imagem */
+.banner img {
+    width: 500px;
+    height: 55vh;
+}
+
+/* Estilizando as informações do banner */
+.info-banner {
+    width: 44vw;
+    height: 55vh;
+    background-color: var(--Header);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.info-banner>h1 {
+    font-family: var(--OpenSans);
+    color: var(--Button);
+    line-height: 40px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.info-banner>p {
+    font-family: var(--Poppins);
+    color: var(--Textgeral);
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.info-banner>h2 {
+    font-family: var(--OpenSans);
+    color: var(--Textgeral);
+    line-height: 40px;
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Estilizar o botão do banner */
+.info-banner>button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: var(--Button);
+    border-radius: 20px;
+    width: 243px;
+    height: 50px;
+    font-family: var(--Poppins);
+    color: #005F58;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.info-banner>button>img {
+    margin-right: 6px;
+}
+
+/* Criar estilização do aside e do article */
+
+
+
+
+
+
+
+/* Estilizar o footer */
+
+footer {
+    width: 100vw;
+    height: auto;
+    background-color: var(--Header);
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.info-flex {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.items h1 {
+    font-family: var(--JosefinSans);
+    color: var(--Textgeral);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.items>h2 {
+    font-family: var(--JosefinSans);
+    color: var(--Textgeral);
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.items>img {
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+/* Estilizar o Qrcode */
+.qrcode {
+    margin-left: 60px;
+}
+
+/* Estilizar o Gestão e o botão voltar */
+.btnvoltar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 78vw;
+}
+
+.btnvoltar h2 {
+
+    font-family: var(--JosefinSans);
+    color: var(--Textgeral);
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.items>button {
+    background-color: var(--Button);
+    width: 19vw;
+    height: 5vh;
+    border-radius: 20px;
+    font-family: var(--JosefinSans);
+    color: var(--Textbutton);
+    cursor: pointer;
+}
+
+
+
+/* Criar consulta de mídia (@media) */
+@media (max-width: 680px) {
+
+    header {
+        width: 100vw;
+        height: auto;
+        background-color: var(--Header);
+    }
+
+    .nav-flex>ul {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .nav-flex>ul>li {
+        margin-top: 20px;
+    }
+
+
+
+    .container-grid-banner {
+        grid-template-columns: 1fr;
+        /* Definindo apenas uma coluna para telas menores que 680px */
+    }
+
+    .banner img {
+        width: 415px;
+    }
+
+    .info-banner {
+        width: 415px;
+        height: auto;
+    }
+
+
+}

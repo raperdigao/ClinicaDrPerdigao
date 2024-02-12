@@ -1,0 +1,28 @@
+landing page index #
+uiverse
+responsivel comando grid auto-fit
+repeat
+border-radius = 20px
+box shadow = eixo x e Y
+
+
+
+https://www.youtube.com/watch?v=jp_cNhUK-4g
+
+
+Jabaquara
+<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d29239.44087082315!2d-46.67188497227768!3d-23.642673889588576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.6431282!2d-46.6608112!4m5!1s0x94ce5ac2821760d3%3A0x6d2b71a5d93a9436!2sCorreios%20-%20Av.%20Eng.%20Armando%20de%20Arruda%20Pereira%2C%202385%20-%20Jabaquara%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004309-011!3m2!1d-23.6486098!2d-46.6400156!5e0!3m2!1spt-BR!2sbr!4v1707421283065!5m2!1spt-BR!2sbr" width="369" height="525" style="border:20;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+Ibirapuera 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29248.846550792685!2d-46.695057889160104!3d-23.600537599999978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a1b721487c5%3A0x637772fe50877f14!2sCl%C3%ADnica%20Renata%20Sitonio!5e0!3m2!1spt-BR!2sbr!4v1707421762704!5m2!1spt-BR!2sbr" width="369" height="525" style="border:20;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+Paraiso
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29242.655083243848!2d-46.66163201337752!3d-23.62828258044109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a33fb8c1059%3A0x69db08aeaf0ed824!2sDr.%20Fellipe%20Bravim%20Catelan!5e0!3m2!1spt-BR!2sbr!4v1707421957850!5m2!1spt-BR!2sbr" width="369" height="525" style="border:20;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+
+
+Josefin Sans
+Open Sans
+poppins
