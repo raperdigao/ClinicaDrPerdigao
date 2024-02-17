@@ -268,7 +268,7 @@ header {
     height: 55vh;
     width: 360px;
     border-radius: 20px;
-    box-shadow: 5px 6px rgba(0, 65, 134, 25%);
+    box-shadow: 5px 6px 5px rgba(0, 65, 134, 25%);
     margin-bottom: 20px;
     padding-top: 12px;
 }
@@ -312,7 +312,7 @@ header {
     padding-top: 12px;
     padding-left: 6px;
     border-radius: 20px;
-    box-shadow: 5px 6px rgba(0, 65, 134, 25%);
+    box-shadow: 5px 6px 5px rgba(0, 65, 134, 25%);
 }
 
 .card-article>p {
@@ -353,7 +353,7 @@ header {
     border-radius: 20px;
     /* width: 325px; */
     height: 60vh;
-    box-shadow: 8px 9px rgba(250, 192, 117, 25%);
+    box-shadow: 8px 9px 5px rgba(250, 192, 117, 25%);
 
 }
 
